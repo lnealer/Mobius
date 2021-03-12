@@ -1,7 +1,7 @@
 # Mobius
 
 ## Overview
-This is a simple front-end project designed to retrieve data from the Mobius API for bills of material and display that data. This is done mostly with javascript and some HTML.
+This is a simple front-end project designed to retrieve data from the Mobius API for bills of material and display that data. This is done mostly with javascript and some HTML. This project was tested and run in Chrome
 
 ## Scripts
 
