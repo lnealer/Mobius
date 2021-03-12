@@ -33,7 +33,7 @@ function get_items(id){
 }
 
 function make_table(data) {
-    // header data
+    // table header data
     const head = ["ID", "BomID","Model", "UUID", "Created at", "Updated at", "Quantity", "Item unit cost", "Specific part"]
 
     // make the table
@@ -60,6 +60,7 @@ function make_table(data) {
         div.appendChild(table);
 
         for (let key in dict) {
+            // add each cell of data
             if (key == "fields"){
                 continue;
             }
